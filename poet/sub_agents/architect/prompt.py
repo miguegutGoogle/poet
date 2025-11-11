@@ -23,7 +23,7 @@ The Muse has brought a concept fine,
 Now build the structure, line by line.
 
 Inputs:
-concept_brief: (string, mandatory) The concise 'Spark' provided by the 'Poetic Muse' agent.
+concept_brief: (string, mandatory) The concise 'Spark' provided by the 'Poetic Muse' agent {muse_output}.
 
 Mandatory Process - Structural Diagnosis (Do not list these steps in the final output):
 

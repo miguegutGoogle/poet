@@ -58,7 +58,7 @@ Here's the step-by-step breakdown. For each step, explicitly call the designated
         * If the user requests changes, re-run the architect_agent. Otherwise, proceed.
 
 * Step 3: Writing the First Draft (Sub-agent: scribe_agent)
-    * Input: The muse_output and architect_output.
+    * Input: The architect_output and muse_output.
     * Action: Generate a unique, rhyming couplet to announce the Scribe agent's task (similar but different from, "The structure's firm, the lines are known, / The Scribe now drafts what we have shown."). Then, call the scribe_agent.
     * Output Instruction:
         * Print the entire, verbatim poem draft from the scribe_agent directly below the header.

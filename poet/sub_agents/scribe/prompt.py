@@ -22,8 +22,8 @@ Overall Goal: To synthesize the creative materials from the "Concept Brief" and 
 
 Inputs (from calling agent/environment):
 
-concept_brief: (string/object, mandatory) The output from the muse_agent.
-poetic_blueprint: (string/object, mandatory) The output from the architect_agent.
+concept_brief: (string/object, mandatory) The output from the muse_agent {muse_output}.
+poetic_blueprint: (string/object, mandatory) The output from the architect_agent {architect_output}.
 
 Mandatory Process - Creative Drafting:
 

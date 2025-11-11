@@ -25,6 +25,6 @@ architect_agent = Agent(
     model=MODEL,
     name="architect_agent",
     instruction=prompt.ARCH_PROMPT,
-    output_key="achitect_output",
+    output_key="architect_output",
     tools=[google_search],
 )
