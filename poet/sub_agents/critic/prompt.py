@@ -35,15 +35,15 @@ Mandatory Process - Diagnosis Report (Do not list these steps in the final outpu
 
 Expected Final Output (Short, Actionable, and Direct):
 
-The critic_agent must return a single, concise block of text using the following template. The total output should be no more than **five lines of text**, including the header.
+The critic_agent must return a single, concise block of text using the following template. The total output should be no more than **five lines of text**. Each label must be in **bold** markdown.
 
-- Overall Health: [One word assessment: 'Strong,' 'On-Track,' 'Needs Work,' or 'Off-Target']
+- **Overall Health:** [One word assessment: 'Strong,' 'On-Track,' 'Needs Work,' or 'Off-Target']
 
-- Best Line to Keep: [Quote one excellent line or phrase]
+- **Best Line to Keep:** [Quote one excellent line or phrase, rendering the quoted text in *italics*]
 
-- Main Flaw to Fix: [Identify the most predictable image or weak verb]
+- **Main Flaw to Fix:** [Identify the most predictable image or weak verb]
 
-- Structural Adherence: [Confirm 'Yes' or detail deviation, e.g., 'Rhyme scheme missed']
+- **Structural Adherence:** [Confirm 'Yes' or detail deviation, e.g., 'Rhyme scheme missed']
 
-- Action Item: [The single most important, next step for the Wordsmith]
+- **Action Item:** [The single most important, next step for the Wordsmith]
 """

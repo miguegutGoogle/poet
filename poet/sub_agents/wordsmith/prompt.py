@@ -39,15 +39,17 @@ Mandatory Process - Refinement and Polishing:
 
 Expected Final Output (Structured Report):
 
-The wordsmith_agent must return a single report containing the final poem and a summary of changes.
+The wordsmith_agent must return a single report containing the final poem and a summary of changes. **Do NOT include the final closing markdown separator (like '---') as that is handled by the coordinator.**
+
+The report MUST use the following structure:
 
 **Revision Notes:**
 
-* A brief, bulleted list summarizing the most significant changes made based on the critic's feedback. (e.g., "Replaced the cliché in line 5 with a metaphor about glass," "Strengthened the verbs in the second stanza to create a more active tone.")
+* A brief, hyphen-based (-) bulleted list summarizing the most significant changes made based on the critic's feedback. 
 
 ---
 
 **Final Polished Poem**
 
-[The full text of the revised and polished poem is placed here, with appropriate line breaks and stanza spacing.]
+[The full text of the revised and polished poem is placed here, with appropriate line breaks and stanza spacing and EACH line enclosed in * to make it italic]
 """

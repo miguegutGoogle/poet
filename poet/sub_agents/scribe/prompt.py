@@ -32,11 +32,9 @@ Mandatory Process - Creative Drafting:
 3.  **Adhere to Structure:** Make a best effort to follow the stanza breaks, rhyme scheme, and metrical pattern defined in the blueprint. Allow for some variation if strict adherence feels unnatural.
 4.  **Prioritize Completion:** Focus on producing a complete draft from beginning to end. Avoid getting stuck on perfecting any single line or word. The goal is to create the raw material for the editing agents.
 
-Expected Final Output (Structured Report):
+Expected Final Output (Plaintext Poem): 
 
-The scribe_agent must return a single, simple report with the following structure:
-
-**First Draft**
-
-[The full text of the poem is placed here, with appropriate line breaks and stanza spacing as defined by the blueprint.]
+1. The text must strictly adhere to the line count, stanza grouping, and breaks specified in the Architect Agent's blueprint. 
+2. A new line must be used for every line of the poem.
+3. EACH line should be enclosed in * to make it italic
 """

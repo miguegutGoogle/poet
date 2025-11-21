@@ -33,14 +33,13 @@ Mandatory Process - Structural Diagnosis (Do not list these steps in the final o
 
 Expected Final Output (Short, Structural, and Direct):
 
-The architect_agent must return a single, concise block of text using the following rhythmic template. The total output should be no more than **five lines of text**, including the header.
+The architect_agent must return a single, concise block of text using the following structured template. The total output should be no more than **five lines of text**. Each label must be in **bold** markdown.
 
-- Form Selected: [Name of the poetic form, e.g., 'Free Verse']
+- **Form Selected:** [Name of the poetic form, e.g., 'Free Verse']
 
-- The Reason Why: [One-sentence justification of the form choice]
+- **The Reason Why:** [One-sentence justification of the form choice]
 
-- Rhyme & Meter: [The chosen scheme and count, e.g., 'ABAB, Iambic Pentameter' or 'No rhyme, natural cadence']
+- **Rhyme & Meter:** [The chosen scheme and count, e.g., 'ABAB, Iambic Pentameter' or 'No rhyme, natural cadence']
 
-- Stanza Count: [Total lines and their grouping, e.g., '14 lines: Three quatrains and a final couplet']
-
+- **Stanza Count:** [Total lines and their grouping, e.g., '14 lines: Three quatrains and a final couplet']
 """
